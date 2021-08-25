@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+/* font-family: 'Hina Mincho', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+/* *{
+    letter-spacing: 1.3em;
+} */
+
+body{
+    background: rgb(149, 146, 138);
+}
+
+p{
+    text-transform: uppercase;
+    margin-left: 5vw;
+    font-weight: bold;
+    font-size: 1.4em;
+    background: linear-gradient(90deg, rgb(202, 201, 201), rgb(224, 224, 224));
+    width: 30vw;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main{
+    display: inline-flex;
+    gap: 18vw;
+}
+
+section i{
+    margin-left: 10vw;
+    font-size: 25px;
+    color: rgb(185, 26, 248);
+}
+
+li{
+    padding: 2vh;
+    font-family: 'Hina Mincho', serif;;
+    font-size: 1.4em;
+}
+
+@media (max-width: 619px){
+    main{
+        display: block;
+    }
+}
